@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713704212701",
+    "firebase_url": "https://mobilography-5e2cc.firebaseio.com",
+    "project_id": "mobilography-5e2cc",
+    "storage_bucket": "mobilography-5e2cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713704212701:android:e5fadc20dbad2c712a7334",
+        "android_client_info": {
+          "package_name": "com.mobilography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713704212701-spehuiqn1ha4ctaepi5t761n9mdeanml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobilography",
+            "certificate_hash": "00ed30955506f43dbbc4020b30440c45e8a76a1f"
+          }
+        },
+        {
+          "client_id": "713704212701-0k8ia8m5phh7glbvam42pt1tao0el7kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH2t44zdBzHv2kqzOpbRmjLKEiUOwTSOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713704212701-0k8ia8m5phh7glbvam42pt1tao0el7kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

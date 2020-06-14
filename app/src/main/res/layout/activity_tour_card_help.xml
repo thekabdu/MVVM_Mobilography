@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TourCardHelp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/origami" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_marginVertical="10sp"
+        android:text="When are you going on a trip?"
+        android:textColor="#F9AA33"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="10sp"
+        android:text="How to pay for the tour?"
+        android:textColor="#F9AA33"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginVertical="10sp"
+        android:text="Where is the gathering point for group excursions?"
+        android:textColor="#F9AA33"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginVertical="10sp"
+        android:text="Didn't find an answer to your question? Contact us and we will provide the necessary information."
+        android:textColor="#F9AA33"
+        android:textSize="25sp" />
+
+</LinearLayout>

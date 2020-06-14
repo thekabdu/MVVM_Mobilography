@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".message.item.ChatActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/chat_item_left"
+            />
+
+        <LinearLayout
+            android:id="@+id/sendLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:padding="6dp">
+
+
+            <EditText
+                android:id="@+id/et_chat"
+                android:background="@drawable/rounded_edittext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:hint="Type a message"
+                android:imeActionLabel="Send"
+                android:imeOptions="actionSend"
+                android:maxLines="10"
+                android:padding="10dp"
+                android:textColorHint="#d4d4d4" />
+
+            <Button
+                android:background="@drawable/round_button"
+                android:id="@+id/btnSend"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:drawableStart="@drawable/ic_send_black_24dp"
+                android:drawableTint="@android:color/white"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="10dp"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>

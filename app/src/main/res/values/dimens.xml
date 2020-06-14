@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_width">350dp</dimen>
+    <dimen name="input_height">40dp</dimen>
+    <dimen name="input_margin">20dp</dimen>
+    <dimen name="input_button_width">115dp</dimen>
+    <dimen name="input_button_height">60dp</dimen>
+    <dimen name="message_margin">30dp</dimen>
+
+
+
+</resources>

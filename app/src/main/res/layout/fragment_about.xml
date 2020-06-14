@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentAbout"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to contact with us"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_marginVertical="150dp"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <TextView
+        android:textColor="@color/colormenuItem"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Email: mobilography@mail.ru"
+        android:layout_width="330dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:textColor="@color/colormenuItem"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Tel.Number:  +7 707 883 66 39"
+        android:layout_width="330dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:textColor="@color/colormenuItem"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Insta: @thekabdu"
+        android:layout_width="330dp"
+        android:layout_height="40dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginVertical="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:text="@string/Copyright"
+            android:textColor="@color/colorText" />
+
+    </FrameLayout>
+
+</LinearLayout>
